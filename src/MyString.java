@@ -2,9 +2,7 @@ public class MyString {
     private int maxAmount;
     String text;
 
-    public MyString(int maxAmount, String text) {
-        this.maxAmount = maxAmount;
-        this.text = text;
+    public MyString() {
     }
 
     public int getMaxAmount() {
@@ -27,6 +25,6 @@ public class MyString {
     public String toString() {
         return
                 "maxAmount = " + maxAmount +
-                ", text = " + text;
+                        ", text = " + text;
     }
 }// class
