@@ -28,6 +28,7 @@ public class Main {
                 }
             }
         }).start();
+
         Thread.sleep(100);
         Thread letterA = new Thread(() -> {
             int amount = 0;
